@@ -63,6 +63,67 @@
   width: auto;
 }
 
+
+
+/* ----------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+
+  .landingPageContainer {
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .landingPageContainer nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .landingPageContainer nav h2 {
+    font-size: 1.5rem;
+  }
+
+  .landingPageContainer nav .navlist {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .landingMainContainer {
+    flex-direction: column;
+    padding: 1.2rem;
+    height: auto;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .landingMainContainer > div:nth-child(1) {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .landingMainContainer > div:nth-child(1) div[role='button'] {
+    margin: 1rem auto 0;
+  }
+
+  .landingMainContainer > div:nth-child(1) div[role='button'] a {
+    font-size: 1rem;
+  }
+
+  .landingMainContainer > div:nth-child(2) img {
+    height: 250px;
+    width: auto;
+  }
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+
 .navBar {
   display: flex;
   align-items: center;
@@ -139,10 +200,27 @@
   color: rgb(112, 112, 211);
 }
 
+
+/* ========= Signup Form ======= */
 .signup-form{
   width: 100vw;
   height: 100vh;
-  background: url("/background.png");
+  /* background: url("/background.png"); */
   background-repeat: no-repeat;
   background-size: cover;
+} 
+
+.videocall-sec{
+  cursor: pointer;
+}
+
+.return-home{
+  padding: 0.5rem;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.retrn-back{
+  padding: 1rem;
+  color:blueviolet;
 }

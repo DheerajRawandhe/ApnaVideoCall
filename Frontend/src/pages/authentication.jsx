@@ -15,6 +15,10 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { AuthContext } from '../contexts/AuthContext';
 import { Snackbar } from '@mui/material';
 import bgImage from '../../public/background.png';
+import ReplyAllIcon from '@mui/icons-material/ReplyAll';
+import AssignmentReturnOutlinedIcon from '@mui/icons-material/AssignmentReturnOutlined';
+import { useNavigate } from 'react-router-dom'
+import "../App.css";
 
 const defaultTheme = createTheme();
 
@@ -30,7 +34,7 @@ export default function Authentication() {
     const [formState, setFormState] = React.useState(0);
 
     const [open, setOpen] = React.useState(false)
-
+    let navigate = useNavigate();
 
     const { handleRegister, handleLogin } = React.useContext(AuthContext);
 
@@ -83,6 +87,8 @@ export default function Authentication() {
                     }}
                 />
                 <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+                    <p  className='retrn-back'  onClick={() => navigate("/")}><  ReplyAllIcon   fontSize="large" /></p>
+                    {/* <p  className='retrn-back'  onClick={() => navigate("/")}><  AssignmentReturnOutlinedIcon   fontSize="large" /></p> */}
                     <Box
                         sx={{
                             my: 8,

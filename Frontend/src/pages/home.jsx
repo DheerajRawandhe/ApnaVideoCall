@@ -24,9 +24,11 @@ function HomeComponent() {
 
             <div className="navBar">
 
-                <div style={{ display: "flex", alignItems: "center" }}>
-                    <img className='videocall-image' srcSet='/logo3.png' alt="video-call-img" />
-                    <h2>   Apna Video Call</h2>
+                <div className='return-home' style={{ display: "flex", alignItems: "center" }}>
+                    <img onClick={() => navigate("/")} className='videocall-image' srcSet='/m-videocall.png' alt="video-call-img" />
+                    {/* <h2 onClick={() => navigate("/")}>   Apna Video Call</h2> */}
+                    {/* <h2 onClick={() => navigate("/")}>VideoCall</h2> */}
+                    <h2 onClick={() => navigate("/")}>DVC</h2>
                 </div>
 
                 <div style={{ display: "flex", alignItems: "center" }}>
@@ -56,8 +58,10 @@ function HomeComponent() {
 
 
             <div className="meetContainer">
+               
                 <div className="leftPanel">
                     <div>
+                         {/* <p>DVC(Dheeraj Video Call)</p> */}
                         <h2 className='txt-vdo'>Providing Quality Video Call Just Like Quality Education</h2>
 
                         <div style={{ display: 'flex', gap: "10px" }}>
