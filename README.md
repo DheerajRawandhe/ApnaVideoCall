@@ -7,10 +7,10 @@ This app uses WebRTC and Socket.io to create smooth peer-to-peer video calls. It
 The main goal of this project is to understand real-time communication using WebRTC and to build a working video call system like Google Meet or Zoom.
 
 Tech Stack Used :-
-JavaScript
-Socket.io
-WebRTC
-Node.js
-Express.js
-HTML
-CSS
+- JavaScript
+- Socket.io
+- WebRTC
+- Node.js
+- Express.js
+- HTML
+- CSS
