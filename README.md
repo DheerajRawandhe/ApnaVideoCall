@@ -23,7 +23,7 @@ The main goal of this project is to understand real-time communication using Web
 - 💬 Chat messaging (optional – if you added it)
 - 🎥 Mute/unmute video and audio
 
-## How It Works
+## How It Works :-
 - Socket.io handles real-time communication.
 - WebRTC is used for peer-to-peer video and audio connection.
 - Users join the same room using a unique Room ID.
