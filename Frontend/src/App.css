@@ -223,4 +223,9 @@
 .retrn-back{
   padding: 1rem;
   color:blueviolet;
+  cursor: pointer;
+}
+
+.get-started{
+  cursor: pointer;
 }
