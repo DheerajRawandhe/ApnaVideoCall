@@ -1,4 +1,4 @@
-# Dheeraj(Apna)-Video-Call App :-
+# Dheeraj(Apna)-Video-Call App :
 This is a Video Call Web App made by me. It allows two or more users to make video calls using their browsers.
 
 # DVC Overview :-
